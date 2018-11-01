@@ -1,0 +1,10 @@
+FROM nginx
+
+MAINTAINER joey joey_lcy.com
+
+ENV LANG en_US.UTF-8
+
+ADD jenkins-test-0.0.1.jar /data/jar
+
+#运行命令
+CMD ["java", "-jar", "/data/jar/jenkins-test-0.0.1.jar"]

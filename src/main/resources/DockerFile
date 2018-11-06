@@ -1,4 +1,4 @@
-FROM nginx
+FROM jenkins:v2
 
 MAINTAINER joey joey_lcy.com
 
